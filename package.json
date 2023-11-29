@@ -8,9 +8,10 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "firebase": "firebase emulators:start --export-on-exit --import ./cache"
+    "firebase": "firebase emulators:start --export-on-exit --import ./cache "
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.5",
     "firebase": "^10.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -28,6 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "firebase-tools": "^12.9.1",
     "postcss": "^8.4.31",
+    "react-router-dom": "^6.20.0",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"

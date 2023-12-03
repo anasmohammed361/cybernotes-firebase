@@ -14,7 +14,7 @@ CyberNotes is a project built with React, Firebase, and Material Tailwind. It is
 
 To get started with CyberNotes, follow these steps:
 
-1. Clone the repository: https://github.com/anasmohammed361/cybernotes-firebase.git
+1. Clone the repository:`git clone https://github.com/anasmohammed361/cybernotes-firebase.git`
 2. Install the dependencies: `npm install`
 3. Set up Firebase for authentication , database and storage services.
 4. Configure the Firebase credentials in the project .

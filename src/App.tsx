@@ -1,15 +1,23 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
-import Auth from "./routes/Auth";
+import SignUp from "./routes/SignUp";
+import Root from "./routes/Root";
+import Login from "./routes/Login";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/auth" element={<Auth />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Root />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
+      <Toaster />
+    </>
   );
 };
 

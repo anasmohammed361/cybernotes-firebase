@@ -1,9 +1,9 @@
-import AuthCard from "../lib/components/auth/AuthCard";
+import SignupCard from "../lib/components/auth/SignUpCard";
 
 const Auth = () => {
   return (
     <main className="h-screen w-full flex items-center justify-center">
-      <AuthCard />
+      <SignupCard />
     </main>
   );
 };
